@@ -1,0 +1,7 @@
+
+<TouchableOpacity onPress={() => pressHandler(item.key)}>
+            <View style={styles.item}>
+                <MaterialIcons name='delete' size={18} color='#7c89ea'/>
+                <Text style={styles.text}>{item.text}</Text>
+            </View>
+        </TouchableOpacity>
